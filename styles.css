@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+  width: 5vw;
+  height: 6vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+html {
+  background-color: #f0eaea;
+}
+
+nav {
+  margin: 0 5px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5rem;
+  margin-bottom: 5rem;
+}
+
+main {
+  margin: 0 2vw;
+}
+
+footer {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c9c9c9;
+  margin-top: 20px;
+}
+
+.flex-item {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.card {
+  background-color: white;
+  margin: 0.5rem;
+  border-radius: 15px;
+  height: 100%;
+}
+
+.card > img {
+  width: 100%;
+  aspect-ratio: 3/2;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.icon {
+  height: 2rem;
+  margin-right: 5px;
+}
+
+.card > div {
+  padding: 12px;
+}
+
+#steam-link {
+  font-size: 1.5rem;
+  margin-left: auto;
+  text-decoration: none;
+}
+
+.link-wrapper {
+  display: flex;
+  margin-top: 10px;
+}
+
+#steam-link:link {
+  color: black;
+}
+
+#steam-link:visited {
+  color: black;
+}
+
+#steam-link:hover {
+  color: black;
+}
+
+.card > div > .title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.card > div > p {
+  font-size: 1.2rem;
+}
+
+.inline {
+  display: inline;
+}
+
+.right-align {
+  margin-left: auto;
+}
+
+.item-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.item {
+  grid-column: auto;
+  grid-row: auto;
+  margin-bottom: 15px;
+}
+
+#logo-image {
+  height: 20vh;
+}
+
+#search-field {
+  display: inline;
+  width: 80vw;
+  height: 5vh;
+}
+
+#search-wrapper {
+  display: flex;
+  align-items: center;
+}
